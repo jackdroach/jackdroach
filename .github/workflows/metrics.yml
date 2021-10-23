@@ -9,7 +9,7 @@ on:
 jobs:
   github-metrics-examples:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/lowlighter'"
+    if: "github.repository == 'jackdroach/jackdroach'"
     steps:
 
       # ======================================================================================
@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -41,7 +41,7 @@ jobs:
           plugin_followup: yes
           plugin_projects: yes
           plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -53,7 +53,7 @@ jobs:
           filename: metrics.terminal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, metadata
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -66,7 +66,7 @@ jobs:
           markdown: metrics.markdown.template.md
           config_output: markdown
           token: ${{ secrets.METRICS_TOKEN }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -100,7 +100,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           token: ${{ secrets.METRICS_TOKEN }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -119,7 +119,7 @@ jobs:
           config_twemoji: yes
           config_padding: 5%
           token: ${{ secrets.METRICS_TOKEN }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -139,7 +139,7 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -154,7 +154,7 @@ jobs:
           plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -172,7 +172,7 @@ jobs:
           plugin_activity_limit: 7
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -189,7 +189,7 @@ jobs:
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites, watching
           plugin_anilist_limit: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -203,7 +203,7 @@ jobs:
           plugin_anilist_medias: manga
           plugin_anilist_sections: favorites, reading
           plugin_anilist_limit: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -216,7 +216,7 @@ jobs:
           plugin_anilist: yes
           plugin_anilist_sections: characters
           plugin_anilist_limit_characters: 22
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -230,7 +230,7 @@ jobs:
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: favorites, watching, reading, characters
           plugin_anilist_limit: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -245,7 +245,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_code: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -262,7 +262,7 @@ jobs:
           template: repository
           repo: metrics
           plugin_contributors: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -277,7 +277,7 @@ jobs:
           repo: metrics
           plugin_contributors: yes
           plugin_contributors_contributions: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -298,7 +298,7 @@ jobs:
               "📚 Documentation":["README.md", "**/README.md", "**/metadata.yml"],
               "💻 Code (other)":["source/**", "Dockerfile"]
             }
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -313,7 +313,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_discussions: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -328,7 +328,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_followup: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -341,7 +341,7 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_sections: user
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -356,7 +356,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_gists: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -370,7 +370,7 @@ jobs:
           filename: metrics.plugin.support.svg
           token: NOT_NEEDED
           plugin_support: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -387,7 +387,7 @@ jobs:
           plugin_skyline_year: 2020
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -404,7 +404,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           config_timezone: Europe/Paris
           output_action: pull-request
           delay: 120
@@ -419,7 +419,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           config_timezone: Europe/Paris
           output_action: pull-request
           delay: 120
@@ -434,7 +434,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           config_timezone: Europe/Paris
           output_action: pull-request
           delay: 120
@@ -451,7 +451,7 @@ jobs:
           user: github
           base: header
           plugin_introduction: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -465,7 +465,7 @@ jobs:
           repo: metrics
           base: header
           plugin_introduction: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -480,7 +480,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -493,7 +493,7 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -510,7 +510,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 4
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -526,7 +526,7 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 4
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -541,7 +541,7 @@ jobs:
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 4
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -557,7 +557,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 4
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -575,7 +575,7 @@ jobs:
           repo: metrics
           plugin_licenses: yes
           plugin_licenses_setup: npm ci
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -592,7 +592,7 @@ jobs:
           plugin_licenses_setup: npm ci
           plugin_licenses_legal: no
           plugin_licenses_ratio: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -607,7 +607,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_lines: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -623,7 +623,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -637,7 +637,7 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -651,7 +651,7 @@ jobs:
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: ${{ secrets.WEBSITE_URL }}
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -667,7 +667,7 @@ jobs:
           plugin_music: yes
           plugin_music_playlist: ${{ secrets.MUSIC_PLAYLIST }}
           plugin_music_limit: 2
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -682,7 +682,7 @@ jobs:
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_limit: 2
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -697,7 +697,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -710,7 +710,7 @@ jobs:
           base: ""
           plugin_notable: yes
           plugin_notable_repositories: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -725,7 +725,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_people: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -738,7 +738,7 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: followers
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -751,7 +751,7 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: following
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -765,7 +765,7 @@ jobs:
           plugin_people: yes
           plugin_people_types: thanks
           plugin_people_thanks: lowlighter, botlighter, octocat
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -781,7 +781,7 @@ jobs:
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers, sponsors
           plugin_people_sponsors_custom: lowlighter, yutkat, ktnkk
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -797,7 +797,7 @@ jobs:
           base: ""
           plugin_posts: yes
           plugin_posts_source: dev.to
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -812,7 +812,7 @@ jobs:
           plugin_posts_source: dev.to
           plugin_posts_descriptions: yes
           plugin_posts_covers: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -829,7 +829,7 @@ jobs:
           plugin_projects: yes
           plugin_projects_repositories: lowlighter/metrics/projects/1
           plugin_projects_descriptions: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -846,7 +846,7 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -862,7 +862,7 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_featured: lowlighter/metrics
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -896,7 +896,7 @@ jobs:
           plugin_screenshot_title: XKCD of the day
           plugin_screenshot_url: https://xkcd.com
           plugin_screenshot_selector: "#comic img"
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -914,7 +914,7 @@ jobs:
           plugin_stackoverflow_user: 1
           plugin_stackoverflow_sections: answers-top
           plugin_stackoverflow_limit: 2
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -929,7 +929,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stargazers: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -945,7 +945,7 @@ jobs:
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -961,7 +961,7 @@ jobs:
           base: ""
           plugin_sponsors: yes
           plugin_sponsors_sections: goal
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -973,7 +973,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_sponsors: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1005,7 +1005,7 @@ jobs:
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 12
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1019,7 +1019,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: mastered
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1034,7 +1034,7 @@ jobs:
           token: ${{ secrets.METRICS_BOT_TOKEN }}
           base: repositories
           plugin_traffic: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1051,7 +1051,7 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_tweets_user: github
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1066,7 +1066,7 @@ jobs:
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_tweets_attachments: yes
           plugin_tweets_user: github
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1083,7 +1083,7 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: MOCKED_TOKEN # ${{ secrets.WAKATIME_TOKEN }}
           use_mocked_data: yes                # ⚠️ Using mocked data because I don't really use WakaTime
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
 
@@ -1157,7 +1157,7 @@ jobs:
 
   github-metrics-markdown:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/lowlighter'"
+    if: "github.repository == 'jackdroach/jackdroach'"
     container: ghcr.io/lowlighter/metrics:master
     steps:
 
@@ -1189,7 +1189,7 @@ jobs:
 
   github-metrics-repository:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/lowlighter'"
+    if: "github.repository == 'jackdroach/jackdroach'"
     steps:
 
       - name: Contributors
@@ -1204,7 +1204,7 @@ jobs:
           repo: metrics
           plugin_people: yes
           plugin_people_types: contributors
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           config_display: large
           output_action: pull-request
           delay: 120
@@ -1220,7 +1220,7 @@ jobs:
           plugin_people_types: sponsors
           plugin_people_sponsors_custom: lowlighter, yutkat, ktnkk, iamsainikhil, tfSheol
           plugin_people_size: 48
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           config_display: large
           output_action: pull-request
           delay: 120
@@ -1238,6 +1238,6 @@ jobs:
           plugin_licenses_setup: npm ci
           plugin_licenses_legal: yes
           plugin_licenses_ratio: yes
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          plugins_errors_fatal: ${{ github.repository == 'jackdroach/jackdroach' }}
           output_action: pull-request
           delay: 120
