@@ -29,4 +29,4 @@ jobs:
           plugin_notable: yes
           plugin_notable_repositories: yes
           config_order: base.header, isocalendar, languages
-          output_action: pull-request
+          output_action: pull-request-squash
