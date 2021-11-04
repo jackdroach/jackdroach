@@ -3,7 +3,7 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 <!--- <img align="right" width="200" src="logo_rounded.svg"> -->
 
 ### Interests
-- Object-oriented programming
+- Programming in Java and Python
 - Front-end web development
 - UI design
 - Logo design
