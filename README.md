@@ -19,7 +19,7 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=jackdroach&bg_color=-35,00d7ff,00ff9b&title_color=fff&text_color=fff&show_icons=true&icon_color=fff&hide_border=true)
   -->
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=-35,ff6464,ffa05f&title_color=fff&text_color=fff&hide_border=true&langs_count=10&border_radius=10&card_width=300)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=-35,ff6464,ffa05f&title_color=fff&text_color=fff&hide_border=true&border_radius=10&card_width=300)](https://github.com/anuraghazra/github-readme-stats)
 </details>
 
 ## Education
