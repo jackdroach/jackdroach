@@ -1,5 +1,6 @@
 ### About Me
-Hello, I'm Jack. I'm currently studying computer science at Miami University. 
+Hello, I'm Jack. I'm currently studying computer science at Miami University.
+<img align="right" width="200" src="logo.svg">
 
 ### Interests
 - Programming in Java and Python
@@ -34,7 +35,7 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
 
 ### Profile Stats
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&show_icons=true&icon_color=c9d1d9&border_radius=6&border_color=c9d1d9"/>&nbsp;&nbsp;&nbsp;<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&border_radius=6&card_width=300&layout=compact&langs_count=8&border_color=c9d1d9"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&show_icons=true&icon_color=c9d1d9&border_radius=6&hide_border=true"/>&nbsp;&nbsp;&nbsp;<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&border_radius=6&card_width=300&layout=compact&langs_count=8&hide_border=true"/>
 
 ### Connect with Me
 <a href="https://www.jackdroach.com"><img src="https://img.shields.io/badge/-jackdroach.com-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
