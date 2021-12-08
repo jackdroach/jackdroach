@@ -38,6 +38,6 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 <img height="170em" src="https://github-readme-stats.vercel.app/api?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&show_icons=true&icon_color=c9d1d9&border_radius=6&hide_border=true"/>&nbsp;&nbsp;&nbsp;<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&border_radius=6&card_width=300&layout=compact&langs_count=8&hide_border=true"/>
 
 ### Connect with Me
-<a href="https://www.jackdroach.com"><img src="https://img.shields.io/badge/-jackdroach.com-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="https://linkedin.com/in/jackdroach"><img src="https://img.shields.io/badge/-Jack%20Roach-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="https://www.jackdroach.com"><img src="https://img.shields.io/badge/-jackdroach.com-D14836?style=flat&logo=Google-Chrome&logoColor=white"/></a>
+<a href="https://linkedin.com/in/jackdroach"><img src="https://img.shields.io/badge/-Jack%20Roach-D14836?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:roachjd2@miamioh.edu"><img src="https://img.shields.io/badge/-roachjd2@miamioh.edu-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
