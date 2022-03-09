@@ -17,7 +17,6 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) \
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=flat&logo=intellij-idea&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-143?style=flat&logo=pycharm&logoColor=black&color=black&labelColor=green)
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white) 
 ![Adobe Illustrator](https://img.shields.io/badge/Illustrator-%23FF9A00.svg?style=flat&logo=adobeillustrator&logoColor=white)
 ![Adobe XD](https://img.shields.io/badge/XD-470137?style=flat&logo=Adobe%20XD&logoColor=#FF61F6)
 
