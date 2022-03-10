@@ -3,10 +3,9 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 <img align="right" width="200" src="logo.svg">
 
 ### Interests
-- Programming in Java and Python
-- Web development
-- UI design
-- Logo design
+- Developing personal projects
+- Advancing my skills
+- Exploring new technology
 
 ### Tech Stack
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=java&logoColor=white)
