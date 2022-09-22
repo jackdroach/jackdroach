@@ -17,4 +17,4 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 ### Connect With Me
 <a href="https://www.jackdroach.com"><img src="https://img.shields.io/badge/-jackdroach.com-D14836?style=flat&logo=Google-Chrome&logoColor=white"/></a>
 <a href="https://linkedin.com/in/jackdroach"><img src="https://img.shields.io/badge/-Jack%20Roach-D14836?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:roachjd2@miamioh.edu"><img src="https://img.shields.io/badge/-roachjd2@miamioh.edu-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:roachjd2@miamioh.edu"><img src="https://img.shields.io/badge/-roachjd2@muohio.edu-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
