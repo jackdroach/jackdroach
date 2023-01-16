@@ -14,7 +14,7 @@ Hello, I'm Jack. I'm currently studying computer science at Miami University.
 ![Adobe Illustrator](https://img.shields.io/badge/Illustrator-%23FF9A00.svg?style=flat&logo=adobeillustrator&logoColor=white)
 
 ### Profile Stats
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&border_radius=6&card_width=300&layout=compact&langs_count=8&hide_border=true"/>
+<img height="170em" src="https://github-readme-stats-ruby-one.vercel.app/api/top-langs/?username=jackdroach&bg_color=161b22&title_color=c9d1d9&text_color=c9d1d9&border_radius=6&card_width=300&layout=compact&langs_count=8&hide_border=true"/>
 
 ### Connect With Me
 <a href="https://www.jackdroach.com"><img src="https://img.shields.io/badge/-jackdroach.com-D14836?style=flat&logo=Google-Chrome&logoColor=white"/></a>
