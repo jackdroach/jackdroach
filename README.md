@@ -1,5 +1,3 @@
-### About Me
-Hello, I'm Jack. I'm currently studying computer science at Miami University.
 <img align="right" width="200" src="logo.svg">
 
 ### Tech Stack
